@@ -1,0 +1,8 @@
+parm ../bstates/bstate_ca.pdb
+trajin ens.dcd
+reference a_ca.pdb [a]
+reference b_ca.pdb [b]
+rmsd 2a ref [a] out rmsd_ref.dat
+rmsd 2b ref [b] out rmsd_ref.dat
+go
+quit
